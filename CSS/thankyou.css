@@ -1,0 +1,95 @@
+@charset "utf-8";
+/* Background color for the whole page */
+
+body {
+    background-color: whitesmoke;
+}
+
+/* Name for 'New Chapter' */
+
+.center {
+    font-family: monospace;
+    font-size: 35px;
+    letter-spacing: 15px;
+    color: rgb(128, 62, 0);
+}
+
+/* Description for 'New Chapter' */
+
+.description {
+    font-size: 18px;
+    color: rgb(179, 89, 0);
+}
+
+/* Navigation Bar */
+.navbar-nav >li{
+    padding-left:15px;
+    padding-right: 15px;
+}
+
+header ul li {
+    background-color: lightgray;
+    padding: 10px 0;
+    transition: 0.5s;
+}
+
+header ul li a {
+    color: #fff;
+    font-size: 1.084rem;
+}
+
+header ul li:hover {
+    background: rgb(255, 228, 196);
+}
+
+.navbar-brand{
+    color: #000;
+}
+@media (max-width:991px){
+    nav.navbar{
+        background: lightgrey;
+    }
+}
+
+/* Background for thankyou page */
+
+section {
+    width: 96%;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+/* Description and information about the content  */
+
+.text {
+    background: linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)), url("../Images/reservation1.png");
+    background-size: cover;
+    height: 100vh;
+    padding: 50px;
+    margin: 10 0 40px;
+    min-height: 380px;
+    width: auto;
+}
+
+.caption {
+    position: absolute;
+    left: 50%;
+    bottom: 10em;
+    transform: translate(-50%, -50%);
+    color: white;
+    font-size: 20px;
+    text-shadow: 0 1px 0 black;
+    z-index: 100;
+    border: 5px;
+    top: 350px;
+}
+
+/*Footer */
+
+footer {
+    padding: 3px;
+    background-image: linear-gradient(to bottom, rgba(255, 0, 0, 0), #D2691E);
+    color: white;
+    font-size: 22px;
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+}

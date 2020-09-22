@@ -1,0 +1,165 @@
+@charset "utf-8";
+/* Background color for the whole page */
+
+body {
+    background-color: whitesmoke;
+}
+
+/* Name for 'New Chapter' */
+
+.center {
+    font-family: monospace;
+    font-size: 35px;
+    letter-spacing: 15px;
+    color: rgb(128, 62, 0);
+}
+
+/* Description for 'New Chapter' */
+
+.description {
+    font-size: 18px;
+    color: rgb(179, 89, 0);
+}
+
+/*Navigation Bar */
+
+.navbar-nav >li{
+    padding-left:15px;
+    padding-right: 15px;
+}
+
+header ul li {
+    background-color: lightgray;
+    padding: 10px 0;
+    transition: 0.5s;
+}
+
+header ul li a {
+    color: #fff;
+    font-size: 1.084rem;
+}
+
+header ul li:hover {
+    background: rgb(255, 228, 196);
+}
+
+.navbar-brand{
+    color: #000;
+}
+@media (max-width:991px){
+    nav.navbar{
+        background: lightgray;
+    }
+}
+
+/* Reservation Text */
+
+section {
+    width: 88%;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+.text {
+    background: linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)), url("../Images/reservation1.png");
+    background-size: cover;
+    height: auto;
+    padding: 87px;
+    margin: 10 0 40px;
+    min-height: 380px;
+    width: auto;
+}
+
+.textN {
+    position: absolute;
+    left: 50%;
+    bottom: 10em;
+    transform: translate(-50%, -50%);
+    color: white;
+    text-shadow: 0 1px 0 black;
+    z-index: 100;
+    border: 5px;
+    top: 300px;
+}
+
+.textN h2 {
+    font-size: 2.5rem;
+}
+
+.textN p {
+    margin: 0;
+    font-size: 1.2rem;
+}
+
+/* Submit button */
+
+.btn {
+    color: white;
+    font-size: 1.3rem;
+    border: 4px;
+}
+
+.btn:hover {
+    color: rgb(255, 228, 196);
+}
+
+/* Title of the form 'Book A table' */
+
+legend {
+    background-color: rgb(179, 20, 25);
+    color: white;
+    padding: 6px;
+}
+
+/* Reservation Form */
+
+div.formRow {
+    display: -webkit-flex;
+    display: flex;
+    -webkit-flex-flow: row wrap;
+    flex-flow: row wrap;
+    margin: 7px 6px;
+    z-index: inherit;
+    transition: 4.0s;
+}
+
+div.formRow>* {
+    -webkit-flex: 1 1 150px;
+    flex: 1 1 150px;
+}
+
+form#custForm {
+    display: -webkit-flex;
+    display: flex;
+    -webkit-flex-flow: row wrap;
+    flex-flow: row wrap;
+    margin: 10em;
+}
+
+form#custForm>fieldset {
+    background-color: transparent;
+    border-radius: 20px;
+    -webkit-flex: 1 1 300px;
+    flex: 1 1 300px;
+    font-size: 1em;
+    color: white;
+    padding: 10px;
+    margin: 10px;
+}
+
+textarea {
+    display: inline-block;
+    margin: 5px;
+    height: 100px;
+    width: 600px;
+}
+
+/* Footer */
+
+footer {
+    padding: 3px;
+    background-image: linear-gradient(to bottom, rgba(255, 0, 0, 0), #D2691E);
+    color: white;
+    font-size: 22px;
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+}

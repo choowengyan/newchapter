@@ -1,0 +1,82 @@
+@charset "utf-8";
+/* Background color for the whole page */
+
+body {
+    background-color: whitesmoke;
+}
+
+/* Name for 'New Chapter' */
+
+.center {
+    font-family: monospace;
+    font-size: 35px;
+    letter-spacing: 15px;
+    color: rgb(128, 62, 0);
+}
+
+/* Description for 'New Chapter' */
+
+.description {
+    font-size: 18px;
+    color: rgb(179, 89, 0);
+}
+
+.textCenter {
+    border: 5px solid brown;
+    border-width: medium;
+    margin: 20px;
+    line-height: 26px;
+    text-align: center;
+    font-family: 'Josefin Sans', sans-serif;
+}
+
+/*Page selection bar for index page*/
+
+.card {
+    box-shadow: 0px 0px 20px 1px rgba(0, 0, 0, 0.2);
+    padding: 10px;
+    width: 100%;
+    margin-top: 28px;
+    float: left;
+    background-color: #fff;
+    transition: 1.0s;
+}
+
+.object-fit {
+    width: 100%;
+    height: 15vw;
+    object-fit: cover;
+}
+
+.card span {
+    float: right;
+    font-size: 12px;
+    color: rgb(139, 69, 19);
+}
+
+.card h2 {
+    margin-top: 10px;
+    font-size: 19px;
+    font-family: 'Cabin', sans-serif;
+    letter-spacing: 3px;
+    color: rgb(210, 105, 30);
+}
+
+.card h2 a {
+    text-decoration: none;
+    color: rgb(128, 62, 0);
+}
+
+.card h2 a:hover, .card h2 a:hover {
+    color: #483D8B;
+}
+
+/*Footer */
+
+footer {
+    padding: 3px;
+    background-image: linear-gradient(to bottom, rgba(255, 0, 0, 0), #D2691E);
+    color: white;
+    font-size: 22px;
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+}
